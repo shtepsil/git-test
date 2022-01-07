@@ -7,3 +7,6 @@ p {
 h2 {
   font-size: 25px;
 }
+.dn {
+  display: none;
+}
