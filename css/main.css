@@ -1,3 +1,9 @@
 body {
   background-color: rgb(134, 219, 219);
 }
+p {
+  color:burlywood;
+}
+h2 {
+  font-size: 25px;
+}
