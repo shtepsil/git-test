@@ -1,0 +1,26 @@
+## Команды для Windows
+ls или dir - покажет все файлы в текущей диретории
+c:, d:, ... - сразу перейти на нужный диск
+
+## Команды Git
+git init - инициализация репозитория (создание скрытой директории .git со всем её содержимым)
+
+## Git config
+- git config --global user.name "Sergey Brazhnikov"
+- git config --global user.email akvarius_84@mail.ru
+> Проверка config'a
+> > git config --list
+
+## …or create a new repository on the command line
+- echo "# git-test" >> README.md
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/shtepsil/git-test.git
+- git push -u origin main
+
+## …or push an existing repository from the command line
+- git remote add origin https://github.com/shtepsil/git-test.git
+- git branch -M main
+- git push -u origin main
